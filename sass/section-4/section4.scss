@@ -1,0 +1,131 @@
+.section4{
+    width: 100%;
+    padding: 100px 116px;
+    background-color: #1F2E35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .section4__item{
+        max-width: 968px;
+
+flex-shrink: 0;
+border-radius: 32px;
+background: #02897A;
+padding: 16px 40px;
+display: flex;
+justify-content: space-between;
+.section4__item-box1{
+    h1{
+
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 151.4%; /* 48.448px */
+        // border: 1px solid;
+    }
+    h2{
+        display: inline-flex;
+        padding: 10px 35px 10px 33px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        background-color: #FFF;
+        // margin-top: 60px;
+        font-family: Poppins;
+        
+    }
+}
+
+
+    }
+}
+@media(min-width:1030px) and (max-width:1200px){
+   .section4{
+    .section4__item{
+   max-width: 900px;
+    }
+
+   }
+}
+@media(min-width:930px) and (max-width:1029px){
+    .section4{
+        .section4__item{
+       max-width: 850px;
+        }
+    
+       }
+}
+@media(min-width:768px) and (max-width:929px){
+    .section4{
+        .section4__item{
+       max-width: 750px;
+       h1{
+        font-size: 25px;
+       }
+       h2{
+        padding: 80px 25px 80px 23px;
+        font-size: 19px;
+        margin-top: 20px;
+       }
+        }
+    
+       }
+}
+@media(min-width:447px) and (max-width:767px){
+    .section4{
+       
+        .section4__item{
+            padding: 40px;
+       max-width: 400px;
+       display: flex;
+       flex-wrap: wrap;
+       border: 1px solid;
+       .section4__item-box2{
+        img{
+
+            max-width: 213px;
+            height: 215px;
+        }
+       }
+       h1{
+        font-size: 20px;
+       }
+       h2{
+        padding: 70px 23px 70px 23px;
+        font-size: 16px;
+        margin-top: 15px;
+       }
+        }
+    
+       }
+}
+@media (max-width:447px){
+    .section4{
+       
+        .section4__item{
+            padding: 20px;
+       max-width: 350px;
+       display: flex;
+       flex-wrap: wrap;
+       border: 1px solid;
+       .section4__item-box2{
+        img{
+
+            max-width: 213px;
+            height: 215px;
+        }
+       }
+       h1{
+        font-size: 20px;
+       }
+       h2{
+        padding: 70px 23px 70px 23px;
+        font-size: 16px;
+        margin-top: 15px;
+       }
+        }
+    
+       }
+}

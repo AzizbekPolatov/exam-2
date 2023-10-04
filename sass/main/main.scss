@@ -1,0 +1,17 @@
+@import url(../../sass/header/header.css);
+@import url(../../sass/section/section.css);
+@import url(../../sass/section-2/section2.css);
+@import url(../../sass/section-3/section3.css);
+@import url(../../sass/section-4/section4.css);
+@import url(../../sass/footer/footer.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    @font-face {
+        font-family: Poppins;
+        src: url(../../Poppins/Poppins-Regular.ttf)
+    }
+    scroll-behavior: smooth;
+}

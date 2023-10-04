@@ -1,0 +1,182 @@
+.section2{
+    width: 100%;
+    background-color: #1F2E35;
+    padding: 130px 50px;
+    text-align: center;
+    h1{
+        color: #FFF;
+font-family: Poppins;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 60px;
+    }
+    .section2__item{
+        width: 100%;
+
+flex-shrink: 0;
+display: flex;
+gap: 60px;
+
+
+  .box1{
+    max-width: 528px;
+height: 392.342px;
+flex-shrink: 0;
+  }
+  .box2{
+    gap: 40px;
+.stolbik{
+    max-width: 600px;
+    text-align: start;
+    margin-bottom: 30px;
+    .stolbik_2{
+        h3{
+            color: #FFF;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+     
+            
+        }
+    }
+    .stolbik_1{
+        display: flex;
+        gap: 20px;
+        text-align: center;
+        align-items: start;
+     
+        
+        img{
+            text-align: start;
+            padding: 10px;
+            background-color: #FFF;
+            border-radius: 50%;
+            margin-bottom: 16px;
+        }
+        h3{
+            color: #FFF;
+
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+
+        }
+    }
+}
+  }
+    }
+}
+@media(min-width:1030px) and (max-width:1200px){
+.section2{
+    padding: 130px 150px;
+ 
+    
+}
+    }
+    @media(min-width:950px) and (max-width:1060px){
+        .section2{
+            padding: 130px 130px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            h1{
+                font-size: 22px;
+            }
+            .section2__item{
+                display: flex;
+                flex-wrap: wrap;
+                text-align: center;
+                .box1{
+                  text-align: center;
+                }
+            }
+            padding: 130px 80px;
+         
+        }
+        }
+        @media(min-width:768px) and (max-width:949px){
+            .section2{
+                padding: 130px 130px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                h1{
+                    font-size: 22px;
+                }
+                .section2__item{
+                    display: flex;
+                    flex-wrap: wrap;
+                    text-align: center;
+                    .box1{
+                      text-align: center;
+                    }
+                }
+                padding: 130px 80px;
+              
+            }
+        }
+        @media(min-width:447px) and (max-width:767px){
+            .section2{
+                padding: 130px 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              
+                h1{
+                    font-size: 22px;
+                }
+                .section2__item{
+                    display: flex;
+                    flex-wrap: wrap;
+                    text-align: center;
+                
+                    .box1{
+                      text-align: center;
+                      img{
+                        max-width: 300px;
+                        text-align: center;
+                        
+                      }
+                    }
+                }
+             
+            }
+        }
+        @media(max-width:447px){
+            .section2{
+                padding: 130px 30px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+              
+                h1{
+                    font-size: 22px;
+                }
+                .section2__item{
+                    display: flex;
+                    flex-wrap: wrap;
+                    text-align: center;
+                
+                    .box1{
+                      text-align: center;
+                      img{
+                        max-width: 300px;
+                        text-align: center;
+                        
+                      }
+                    }
+                }
+             
+            }
+        }
+        

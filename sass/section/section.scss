@@ -1,0 +1,122 @@
+.section1{
+    width: 100%;
+background: #22343D;
+padding: 53px 198px;
+display: flex;
+text-align: center;
+justify-content: center;
+.section__item{
+    h1{
+        color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+margin-bottom: 16px;
+    }
+    h2{
+        color: #FFF;
+font-family: Poppins;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    h3{
+        color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 33px;
+    }
+    p{
+        display: inline-flex;
+        padding: 11px 18px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+background: #02897A;
+color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+    }
+}
+}
+@media(min-width:1030px) and (max-width:1200px){
+   .section1{  
+       padding: 53px 158px;
+       .section__item{
+        h1{
+            font-size: 22px;
+        }
+        h2{
+            font-size: 30px
+        }
+       }
+    }
+}
+    @media(min-width:950px) and (max-width:1060px){
+        .section1{  
+            padding: 53px 100px;
+            .section__item{
+                h1{
+                    font-size: 20px;
+                }
+                h2{
+                    font-size: 24px
+                }
+               }
+         }
+    }    
+    @media(min-width:768px) and (max-width:949px){
+        .section1{  
+            padding: 53px 80px;
+            .section__item{
+                h1{
+                    font-size: 18px;
+                }
+                h2{
+                    font-size: 22px
+                }
+               }
+         }
+    }  
+    @media(min-width:447px) and (max-width:767px){
+        .section1{  
+            padding: 53px 10px;
+            border: 1px solid;
+            .section__item{
+                h1{
+                    font-size: 14px;
+                }
+                h2{
+                    font-size: 16px
+                }
+                p{
+                    font-size: 15px;
+                }
+               }
+         }
+    }
+    @media(max-width:447px){
+        .section1{  
+            padding: 53px 10px;
+            border: 1px solid;
+            .section__item{
+                h1{
+                    font-size: 14px;
+                }
+                h2{
+                    font-size: 16px
+                }
+                p{
+                    font-size: 15px;
+                }
+               }
+         }
+    }

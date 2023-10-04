@@ -1,0 +1,121 @@
+.wrapper{
+    width: 100%;
+    background-color: #1F2E35;
+    text-align: center;
+    padding: 100px 90px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        color: #FFF;
+font-family: Poppins;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+    h2{
+        color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    .wrapper__item{
+     
+        margin-top: 81px;
+       width: 970px;
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+        .box1{
+           max-width: 970px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+           
+            
+         span{
+            color: #FFF;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+         }
+         p{
+            color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+         }
+        //  br{
+        //     color:#474747;;
+        //     margin-bottom: 20px;
+        //  }
+        }
+
+    }
+}
+@media(min-width:1030px) and (max-width:1200px){
+.wrapper{
+    padding: 50px;
+    h1{
+        font-size: 30px;
+    }
+    .wrapper__item{
+        width: 920px;
+    }
+}
+}
+@media(min-width:930px) and (max-width:1029px){
+    .wrapper{
+        padding: 50px;
+        h1{
+            font-size: 30px;
+        }
+        .wrapper__item{
+            width: 880px;
+        }
+    }
+}
+@media(min-width:768px) and (max-width:929px){
+    .wrapper{
+        padding: 50px;
+        h1{
+            font-size: 30px;
+        }
+        .wrapper__item{
+            width: 700px;
+        }
+    }
+}
+@media(min-width:447px) and (max-width:767px){
+    .wrapper{
+        padding: 30px;
+        h1{
+            font-size: 20px;
+        }
+        .wrapper__item{
+            max-width: 399px;
+        }
+    }
+}
+@media(max-width:447px){
+    .wrapper{
+        padding: 30px;
+        h1{
+            font-size: 20px;
+        }
+        .wrapper__item{
+            max-width: 349px;
+        }
+    }
+}
